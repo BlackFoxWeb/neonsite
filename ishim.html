@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ишим</title>
+    <style>
+        /* Общие стили */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+            padding: 20px;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: #2a2a2a;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Неоновый текст */
+        .neon-text {
+            color: #fff;
+            text-shadow: 0 0 5px #00ffea, 0 0 10px #00ffea, 0 0 20px #00ffea, 0 0 40px #00ffea;
+            animation: neon-glow 1.5s infinite alternate;
+        }
+
+        @keyframes neon-glow {
+            from {
+                text-shadow: 0 0 5px #00ffea, 0 0 10px #00ffea, 0 0 20px #00ffea, 0 0 40px #00ffea;
+            }
+            to {
+                text-shadow: 0 0 10px #00ffea, 0 0 20px #00ffea, 0 0 40px #00ffea, 0 0 80px #00ffea;
+            }
+        }
+
+        /* Описание города */
+        .description {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #ccc;
+        }
+
+        /* Список интересных мест */
+        .places-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .place-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            background: #333;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .place-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 20px rgba(0, 255, 234, 0.5);
+        }
+
+        .place-image {
+            width: 200px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-right: 20px;
+        }
+
+        .place-info {
+            flex: 1;
+        }
+
+        .place-info strong {
+            color: #00ffea;
+            font-size: 1.2em;
+        }
+
+        .place-info p {
+            margin: 10px 0;
+            color: #ccc;
+        }
+
+        .place-info em {
+            color: #888;
+            font-style: italic;
+        }
+
+        /* Неоновая кнопка */
+        .neon-button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #00ffea;
+            color: #1a1a1a;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1em;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 0 10px rgba(0, 255, 234, 0.5);
+        }
+
+        .neon-button:hover {
+            background-color: #00ccb3;
+            box-shadow: 0 0 20px rgba(0, 255, 234, 0.8);
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1 class="neon-text">Ишим</h1>
+    <p class="description">Иши́м — город в России, административный центр Ишимского района Тюменской области. Расположен на левом берегу реки Ишим. Основан в 1687 году как Коркина слобода, с 1782 года — город Ишим.</p>
+
+    <h2 class="neon-text">Интересные места</h2>
+    <ul class="places-list">
+        <li class="place-item">
+            <img src="images/ishim-memorial.jpg" alt="Мемориал Памяти павших" class="place-image">
+            <div class="place-info">
+                <strong>Мемориал "Памяти павших":</strong>
+                <p>Мемориал «Памяти павших» в Ишиме расположен на Соборной площади у стен Богоявленского собора. Он был открыт в 1995 году накануне 50-летия Победы.</p>
+                <em>Адрес:</em> Ишим, пл. Соборная.
+            </div>
+        </li>
+        <li class="place-item">
+            <img src="images/ishim-cathedral.jpg" alt="Собор Богоявления Господня" class="place-image">
+            <div class="place-info">
+                <strong>Собор Богоявления Господня:</strong>
+                <p>Собор был построен в 1793 году, сегодня он является важнейшим историческим и духовным символом города.</p>
+                <em>Адрес:</em> Ишим, Коркинская ул., 52.
+            </div>
+        </li>
+    </ul>
+
+    <button class="neon-button" onclick="window.location.href='map.html'">Вернуться на карту</button>
+</div>
+</body>
+</html>

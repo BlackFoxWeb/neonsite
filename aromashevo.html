@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Аромашево</title>
+    <style>
+        /* Общие стили */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #2a2a2a;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Неоновый заголовок */
+        .neon-title {
+            font-size: 3em;
+            color: #00ffea;
+            text-shadow: 0 0 5px #00ffea, 0 0 10px #00ffea, 0 0 20px #00ffea, 0 0 40px #00ffea;
+            animation: neon-glow 1.5s infinite alternate;
+        }
+
+        @keyframes neon-glow {
+            from {
+                text-shadow: 0 0 5px #00ffea, 0 0 10px #00ffea, 0 0 20px #00ffea, 0 0 40px #00ffea;
+            }
+            to {
+                text-shadow: 0 0 10px #00ffea, 0 0 20px #00ffea, 0 0 40px #00ffea, 0 0 80px #00ffea;
+            }
+        }
+
+        .neon-description {
+            font-size: 1.1em;
+            color: #ccc;
+            line-height: 1.6;
+        }
+
+        /* Неоновая кнопка */
+        .neon-button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #00ffea;
+            color: #1a1a1a;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1em;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 0 10px rgba(0, 255, 234, 0.5);
+        }
+
+        .neon-button:hover {
+            background-color: #00ccb3;
+            box-shadow: 0 0 20px rgba(0, 255, 234, 0.8);
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1 class="neon-title">Аромашево</h1>
+    <p class="neon-description">Село в Тюменской области, административный центр Аромашевского района и Аромашевского сельского поселения. Расположено к юго-востоку от Тюмени на реке Вагай, являющейся притоком Иртыша. В черте села в Вагай впадает небольшой левый приток - река Малая Киршиха. Национальности: русские, татары, немцы, армяне и другие. Конфессии: православные. Земля здесь богата лесами, имеются месторождения полезных ископаемых. На территории располагается зоологический заказник регионального значения «Алабуга». В лесах обитают различные представители животного мира, из них наиболее многочисленна косуля. Именно она изображена на гербе Аромашевского района. Достопримечательностями села являются следующие сооружения.</p>
+    <button class="neon-button" onclick="window.location.href='map.html'">Вернуться на карту</button>
+</div>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тюмень</title>
+    <style>
+        /* Общие стили */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #2a2a2a;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Неоновый заголовок */
+        .neon-title {
+            font-size: 3em;
+            color: #00ffea;
+            text-shadow: 0 0 5px #00ffea, 0 0 10px #00ffea, 0 0 20px #00ffea, 0 0 40px #00ffea;
+            animation: neon-glow 1.5s infinite alternate;
+        }
+
+        @keyframes neon-glow {
+            from {
+                text-shadow: 0 0 5px #00ffea, 0 0 10px #00ffea, 0 0 20px #00ffea, 0 0 40px #00ffea;
+            }
+            to {
+                text-shadow: 0 0 10px #00ffea, 0 0 20px #00ffea, 0 0 40px #00ffea, 0 0 80px #00ffea;
+            }
+        }
+
+        .neon-description {
+            font-size: 1.1em;
+            color: #ccc;
+            line-height: 1.6;
+        }
+
+        /* Неоновый подзаголовок */
+        .neon-subtitle {
+            font-size: 2em;
+            color: #00ffea;
+            text-shadow: 0 0 5px #00ffea, 0 0 10px #00ffea;
+            margin-top: 20px;
+        }
+
+        /* Неоновый список */
+        .neon-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .neon-list-item {
+            background: #333;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 255, 234, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .neon-list-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 20px rgba(0, 255, 234, 0.5);
+        }
+
+        .neon-text {
+            color: #fff;
+            margin: 10px 0;
+        }
+
+        .neon-text strong {
+            color: #00ffea;
+        }
+
+        .neon-text em {
+            color: #888;
+            font-style: italic;
+        }
+
+        /* Неоновая кнопка */
+        .neon-button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #00ffea;
+            color: #1a1a1a;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1em;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 0 10px rgba(0, 255, 234, 0.5);
+        }
+
+        .neon-button:hover {
+            background-color: #00ccb3;
+            box-shadow: 0 0 20px rgba(0, 255, 234, 0.8);
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1 class="neon-title">Тюмень</h1>
+    <p class="neon-description">Город в России, административный центр Тюменской области и Тюменского района, в состав которого он не входит. Расположен на реке Туре. Образует городской округ город Тюмень. Население города — 861 098 человек, четвёртый по населению город Сибири, восемнадцатый по численности населения город России. В городе есть множество примечательных памятников архитектуры, здешние сады и парки изобилуют зеленью, а общественные пространства пользуются большой популярностью у местных жителей и гостей Тюмени. Здешние храмы и монастыри поражают своей красотой, а многочисленные памятники и арт-объекты уже давно стали узнаваемыми символами города.</p>
+
+    <h2 class="neon-subtitle">Интересные места</h2>
+    <ul class="neon-list">
+        <li class="neon-list-item">
+            <strong class="neon-text">Цветной бульвар:</strong>
+            <p class="neon-text">Цветной бульвар является одним из самых популярных мест для прогулок в Тюмени. Здесь расположены различные кафе, рестораны, магазины и фонтаны. Бульвар украшен множеством цветочных клумб и декоративных элементов, что делает его особенно красивым в летний период.</p>
+            <em class="neon-text">Адрес:</em> Тюмень, ул. Республики
+        </li>
+        <li class="neon-list-item">
+            <strong class="neon-text">Площадь 400-летия Тюмени:</strong>
+            <p class="neon-text">Площадь была открыта в честь юбилея города и является важным культурным и историческим объектом. На площади установлены памятники выдающимся личностям, связанным с историей Тюмени, а также современные арт-объекты.</p>
+            <em class="neon-text">Адрес:</em> Тюмень, ул. Ленина
+        </li>
+        <li class="neon-list-item">
+            <strong class="neon-text">Музейный комплекс имени Ивана Яковлевича Словцова:</strong>
+            <p class="neon-text">Музейный комплекс представляет собой один из крупнейших музеев в Сибири. Экспозиции музея включают в себя артефакты, рассказывающие о истории и культуре региона, а также временные выставки современного искусства.</p>
+            <em class="neon-text">Адрес:</em> Тюмень, ул. Орджоникидзе, д. 58
+        </li>
+        <li class="neon-list-item">
+            <strong class="neon-text">Парк «Затюменский»:</strong>
+            <p class="neон-text">Парк «Затюменский» является одним из любимых мест отдыха горожан. Здесь можно найти множество спортивных и детских площадок, пруды, прогулочные дорожки, а также много зелени и живописных уголков.</p>
+            <em class="neon-text">Адрес:</em> Тюмень, ул. Мельничная
+        </li>
+    </ul>
+    <button class="neon-button" onclick="window.location.href='map.html'">Вернуться на карту</button>
+</div>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Абатское</title>
+    <style>
+        /* Общие стили */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #2a2a2a;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Неоновый заголовок */
+        .neon-title {
+            font-size: 3em;
+            color: #00ffea;
+            text-shadow: 0 0 5px #00ffea, 0 0 10px #00ffea, 0 0 20px #00ffea, 0 0 40px #00ffea;
+            animation: neon-glow 1.5s infinite alternate;
+        }
+
+        @keyframes neon-glow {
+            from {
+                text-shadow: 0 0 5px #00ffea, 0 0 10px #00ffea, 0 0 20px #00ffea, 0 0 40px #00ffea;
+            }
+            to {
+                text-shadow: 0 0 10px #00ffea, 0 0 20px #00ffea, 0 0 40px #00ffea, 0 0 80px #00ffea;
+            }
+        }
+
+        .neon-description {
+            font-size: 1.1em;
+            color: #ccc;
+            line-height: 1.6;
+        }
+
+        /* Неоновый подзаголовок */
+        .neon-subtitle {
+            font-size: 2em;
+            color: #00ffea;
+            text-shadow: 0 0 5px #00ffea, 0 0 10px #00ffea;
+            margin-top: 20px;
+        }
+
+        /* Неоновый список */
+        .neon-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .neon-list-item {
+            background: #333;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 255, 234, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .neon-list-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 20px rgba(0, 255, 234, 0.5);
+        }
+
+        .neon-text {
+            color: #fff;
+            margin: 10px 0;
+        }
+
+        .neon-text strong {
+            color: #00ffea;
+        }
+
+        .neon-text em {
+            color: #888;
+            font-style: italic;
+        }
+
+        /* Неоновая кнопка */
+        .neon-button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #00ffea;
+            color: #1a1a1a;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1em;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 0 10px rgba(0, 255, 234, 0.5);
+        }
+
+        .neon-button:hover {
+            background-color: #00ccb3;
+            box-shadow: 0 0 20px rgba(0, 255, 234, 0.8);
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1 class="neon-title">Абатское</h1>
+    <p class="neon-description">Село в Тюменской области России. Административный центр Абатского района. На территории района расположено 65 населенных пунктов. Село Абатское расположено на левом берегу реки Ишим (приток Иртыша). Особую ценность Абатский район представляет для палеонтологов — здесь расположено одно из крупнейших в России мест захоронений мамонтов доледникового периода, что отражено в геральдике района и села.</p>
+
+    <h2 class="neon-subtitle">Интересные места</h2>
+    <ul class="neon-list">
+        <li class="neon-list-item">
+            <strong class="neon-text">Музей истории Абатского района:</strong> Музей был основан в 1987 году и представляет собой уникальное место, где можно узнать о богатой истории и культуре Абатского района. Экспозиции музея включают в себя артефакты, найденные на месте захоронений мамонтов, а также документы и фотографии, рассказывающие о жизни и быте местных жителей разных эпох.
+            <em class="neon-text">Адрес:</em> Абатское, ул. Ленина, д. 12
+        </li>
+        <li class="neon-list-item">
+            <strong class="neon-text">Памятник первопроходцам:</strong> Этот памятник установлен в честь первых переселенцев, которые освоили эти земли и основали Абатское. Памятник выполнен в виде группы скульптур, изображающих семью, прибывающую в новые земли с надеждой на лучшее будущее.
+            <em class="neon-text">Адрес:</em> Абатское, парк Победы
+        </li>
+        <li class="neon-list-item">
+            <strong class="neon-text">Экологическая тропа «Мамонтова долина»:</strong> Эта тропа проходит через живописные места, где были найдены останки древних животных. Вдоль маршрута установлены информационные таблички, рассказывающие о флоре и фауне региона, а также о находках палеонтологов.
+            <em class="neon-text">Адрес:</em> Абатское, окрестности села
+        </li>
+        <li class="neon-list-item">
+            <strong class="neon-text">Районный дом культуры:</strong> Районный дом культуры является центром культурной жизни Абатского. Здесь проводятся концерты, спектакли, выставки и другие мероприятия, направленные на развитие творческих способностей местных жителей.
+            <em class="neon-text">Адрес:</em> Абатское, ул. Комсомольская, д. 5
+        </li>
+        <li class="neon-list-item">
+            <strong class="neon-text">Церковь Святой Троицы:</strong> Церковь была построена в начале XX века и является одной из самых старых построек в Абатском. Архитектура церкви выполнена в традиционном русском стиле, а внутри храма сохранились старинные иконы и резные деревянные украшения.
+            <em class="neon-text">Адрес:</em> Абатское, ул. Советская, д. 18
+        </li>
+    </ul>
+
+    <button class="neon-button" onclick="window.location.href='map.html'">Вернуться на карту</button>
+</div>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тобольск</title>
+    <style>
+        /* Общие стили */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #2a2a2a;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Неоновый заголовок */
+        .neon-title {
+            font-size: 3em;
+            color: #00ffea;
+            text-shadow: 0 0 5px #00ffea, 0 0 10px #00ffea, 0 0 20px #00ffea, 0 0 40px #00ffea;
+            animation: neon-glow 1.5s infinite alternate;
+        }
+
+        @keyframes neon-glow {
+            from {
+                text-shadow: 0 0 5px #00ffea, 0 0 10px #00ffea, 0 0 20px #00ffea, 0 0 40px #00ffea;
+            }
+            to {
+                text-shadow: 0 0 10px #00ffea, 0 0 20px #00ffea, 0 0 40px #00ffea, 0 0 80px #00ffea;
+            }
+        }
+
+        .neon-description {
+            font-size: 1.1em;
+            color: #ccc;
+            line-height: 1.6;
+        }
+
+        /* Неоновый подзаголовок */
+        .neon-subtitle {
+            font-size: 2em;
+            color: #00ffea;
+            text-shadow: 0 0 5px #00ffea, 0 0 10px #00ffea;
+            margin-top: 20px;
+        }
+
+        /* Неоновый список */
+        .neon-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .neon-list-item {
+            background: #333;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 255, 234, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .neon-list-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 20px rgba(0, 255, 234, 0.5);
+        }
+
+        .neon-text {
+            color: #fff;
+            margin: 10px 0;
+        }
+
+        .neon-text strong {
+            color: #00ffea;
+        }
+
+        .neon-text em {
+            color: #888;
+            font-style: italic;
+        }
+
+        /* Неоновая кнопка */
+        .neon-button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #00ffea;
+            color: #1a1a1a;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1em;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 0 10px rgba(0, 255, 234, 0.5);
+        }
+
+        .neon-button:hover {
+            background-color: #00ccb3;
+            box-shadow: 0 0 20px rgba(0, 255, 234, 0.8);
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1 class="neon-title">Тобольск</h1>
+    <p class="neon-description">Тобольск — исторический город, административный центр Тобольского района и Тобольской области в России. Основан в 1587 году и стал первым административным центром Сибири. Город расположен на реке Ишим. Тобольск — это место с богатой историей, архитектурой и культурой, многие здания города являются памятниками федерального значения. В нем сочетаются историческое наследие и современность, а также живописные виды на реку Ишим и окружение.</p>
+
+    <h2 class="neon-subtitle">Интересные места</h2>
+    <ul class="neon-list">
+        <li class="neon-list-item">
+            <strong class="neon-text">Тобольский Кремль:</strong>
+            <p class="neon-text">Тобольский Кремль — одно из главных исторических и архитектурных сооружений города, включающее в себя множество памятников культуры. В нем расположены Архангельский собор, а также музей Тобольского Кремля, где можно узнать больше о истории города и региона.</p>
+            <em class="neon-text">Адрес:</em> Тобольск, Кремлевская площадь
+        </li>
+        <li class="neon-list-item">
+            <strong class="neon-text">Музей истории Тобольска:</strong>
+            <p class="neon-text">Музей истории Тобольска знакомит посетителей с многовековой историей города, его культурой и развитием. Здесь выставлены уникальные экспонаты, которые рассказывают о важнейших событиях, происходивших на территории Сибири.</p>
+            <em class="neon-text">Адрес:</em> Тобольск, ул. Революции, 15
+        </li>
+        <li class="neon-list-item">
+            <strong class="neon-text">Тобольская центральная площадь:</strong>
+            <p class="neon-text">Тобольская центральная площадь — это место, где проходили важнейшие исторические события города. Сейчас здесь проходят городские мероприятия, ярмарки и концерты, а также расположены рестораны и магазины.</p>
+            <em class="neon-text">Адрес:</em> Тобольск, Центральная площадь
+        </li>
+        <li class="neon-list-item">
+            <strong class="neon-text">Успенский монастырь:</strong>
+            <p class="neon-text">Успенский монастырь является духовным центром города. Монастырь был основан в 1612 году и по сей день является местом паломничества для верующих. Здесь находится множество уникальных святынь.</p>
+            <em class="neon-text">Адрес:</em> Тобольск, ул. Успенская, 1
+        </li>
+    </ul>
+
+    <button class="neon-button" onclick="window.location.href='map.html'">Вернуться на карту</button>
+</div>
+</body>
+</html>

@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ялуторовск</title>
+    <style>
+        /* Общие стили */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #1a1a1a;
+            color: #fff;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #2a2a2a;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+
+        /* Неоновый заголовок */
+        .neon-title {
+            font-size: 3em;
+            color: #00ffea;
+            text-shadow: 0 0 5px #00ffea, 0 0 10px #00ffea, 0 0 20px #00ffea, 0 0 40px #00ffea;
+            animation: neon-glow 1.5s infinite alternate;
+        }
+
+        @keyframes neon-glow {
+            from {
+                text-shadow: 0 0 5px #00ffea, 0 0 10px #00ffea, 0 0 20px #00ffea, 0 0 40px #00ffea;
+            }
+            to {
+                text-shadow: 0 0 10px #00ffea, 0 0 20px #00ffea, 0 0 40px #00ffea, 0 0 80px #00ffea;
+            }
+        }
+
+        .neon-description {
+            font-size: 1.1em;
+            color: #ccc;
+            line-height: 1.6;
+        }
+
+        /* Неоновый подзаголовок */
+        .neon-subtitle {
+            font-size: 2em;
+            color: #00ffea;
+            text-shadow: 0 0 5px #00ffea, 0 0 10px #00ffea;
+            margin-top: 20px;
+        }
+
+        /* Неоновый список */
+        .neon-list {
+            list-style: none;
+            padding: 0;
+        }
+
+        .neon-list-item {
+            background: #333;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 255, 234, 0.3);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .neon-list-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 0 20px rgba(0, 255, 234, 0.5);
+        }
+
+        .neon-text {
+            color: #fff;
+            margin: 10px 0;
+        }
+
+        .neon-text strong {
+            color: #00ffea;
+        }
+
+        .neon-text em {
+            color: #888;
+            font-style: italic;
+        }
+
+        /* Неоновая кнопка */
+        .neon-button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #00ffea;
+            color: #1a1a1a;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1em;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 0 10px rgba(0, 255, 234, 0.5);
+        }
+
+        .neon-button:hover {
+            background-color: #00ccb3;
+            box-shadow: 0 0 20px rgba(0, 255, 234, 0.8);
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <h1 class="neon-title">Ялуторовск</h1>
+    <p class="neon-description">Ялуторовск — город в России, административный центр Ялуторовского района Тюменской области. Он был основан в 1596 году и является одним из старейших городов Сибири. Ялуторовск имеет богатую историю, а также несколько интересных архитектурных и культурных памятников. Город находится на реке Тура и является важным экономическим и культурным центром региона.</p>
+
+    <h2 class="neon-subtitle">Интересные места</h2>
+    <ul class="neon-list">
+        <li class="neon-list-item">
+            <strong class="neon-text">Ялуторовский Кремль:</strong>
+            <p class="neon-text">Ялуторовский Кремль — историческая крепость, построенная в 17 веке, представляющая собой один из старейших памятников архитектуры города. На территории кремля расположены храмы, музей и археологические находки.</p>
+            <em class="neon-text">Адрес:</em> Ялуторовск, Кремлевская площадь
+        </li>
+        <li class="neon-list-item">
+            <strong class="neon-text">Церковь Иоанна Предтечи:</strong>
+            <p class="neon-text">Церковь Иоанна Предтечи — православный храм, построенный в 18 веке. Она является памятником архитектуры и религиозной культуры, привлекающим туристов своей уникальной постройкой и историей.</p>
+            <em class="neon-text">Адрес:</em> Ялуторовск, ул. Ленина, 12
+        </li>
+        <li class="neon-list-item">
+            <strong class="neon-text">Музей истории Ялуторовска:</strong>
+            <p class="neon-text">Музей истории Ялуторовска представляет собой культурное учреждение, в котором собраны экспонаты, рассказывающие о богатой истории города, а также народных традициях и ремеслах.</p>
+            <em class="neon-text">Адрес:</em> Ялуторовск, ул. Октябрьская, 15
+        </li>
+        <li class="neon-list-item">
+            <strong class="neon-text">Ялуторовская старинная улица:</strong>
+            <p class="neon-text">Эта улица — историческое сердце города, где расположены старинные дома, которые сохранили атмосферу старого Ялуторовска. Здесь можно прогуляться, наслаждаясь уникальной архитектурой.</p>
+            <em class="neon-text">Адрес:</em> Ялуторовск, ул. Старообрядческая
+        </li>
+    </ul>
+
+    <button class="neon-button" onclick="window.location.href='map.html'">Вернуться на карту</button>
+</div>
+</body>
+</html>
